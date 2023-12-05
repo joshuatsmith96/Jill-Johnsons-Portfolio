@@ -7,6 +7,10 @@ import Moments from './home-components/Moments'
 import CapturingLife from './home-components/CapturingLife'
 import GetInTouch from '../../components/Global/GetInTouch'
 
+window.onload = function() {
+  document.getElementsByClassName("navlink")[0];
+}
+
 function Home() {
   return (
     <div className="Home">

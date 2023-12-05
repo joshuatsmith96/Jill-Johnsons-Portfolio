@@ -11,6 +11,15 @@
     margin: 0px;
 }
 
+/* .nav-link:focus{
+    font-weight: bold;
+    color: #8b8b8b;
+} */
+
+.navbar{
+    --bs-navbar-hover-color: rgb(235, 142, 56);
+}
+
 .center{
     display: flex;
     flex-direction: column;

@@ -2,6 +2,7 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import Offcanvas from 'react-bootstrap/Offcanvas';
+import { Link } from 'react-router-dom';
 
 import './NavMenu.css'
 
@@ -28,8 +29,8 @@ function NavMenu() {
               <span className="nav-divider"></span>
               <Offcanvas.Body>
                 <Nav className="nav-links justify-content-end flex-grow-1 pe-3">
-                  <Nav.Link href="#action1" className="navlink">Home</Nav.Link>
-                  <Nav.Link href="#action2" className="navlink">Services</Nav.Link>
+                  <Nav.Link as={Link} to="/" className="navlink">Home</Nav.Link>
+                  <Nav.Link as={Link} to="/services" className="navlink">Services</Nav.Link>
                   <Nav.Link href="#action3" className="navlink">About</Nav.Link>
                   <Nav.Link href="#action4" className="navlink">Testimonials</Nav.Link>
                   <Nav.Link href="#action5" className="navlink">Contact</Nav.Link>
