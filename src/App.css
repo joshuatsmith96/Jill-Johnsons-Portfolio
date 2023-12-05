@@ -1,0 +1,27 @@
+/**************************************** Font Styles ********************************************/
+@import url('https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@700&family=Jacques+Francois&family=Linden+Hill&family=Manrope:wght@200;700&family=Old+Standard+TT&display=swap');
+/* font-family: 'Jacques Francois', serif; */
+/* font-family: 'Old Standard TT', serif; */
+/* font-family: 'Abhaya Libre', serif; */
+/* font-family: 'Linden Hill', serif; */
+/* font-family: 'Manrope', sans-serif; */
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.center{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.button{
+    border: none;
+    color: black;
+    background-color: #F0F3F6;
+    font-family: 'Abhaya Libre', serif;
+    letter-spacing: 3px;
+}

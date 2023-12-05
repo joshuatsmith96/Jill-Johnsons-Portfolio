@@ -1,0 +1,414 @@
+#home-hero{
+    width: 100%;
+    height: auto;
+    margin-bottom: 50px;
+}
+
+.MeetMeContainer{
+    margin: 25px 30px;
+}
+
+.MeetMe{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.Headshot{
+    background-image: url("../../assets/headshot.jpg");
+    width: 200px;
+    height: 200px;
+    background-position: center;
+    background-size: cover;
+    border-radius: 100px;
+}
+
+.MeetMeContent{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.MeetMeContent h1{
+    font-size: 24px;
+    font-family: 'Jacques Francois', serif;
+}
+
+.MeetMeContent h3{
+    font-size: 10px;
+    font-family: 'Old Standard TT', serif;
+    font-style: italic;
+    color: #A6AEB7;
+}
+
+.MeetMeContent p{
+    font-size: 18px;
+    font-family: 'Old Standard TT', serif;
+    color: #333333;
+    padding: 2%;
+}
+
+.MeetMeContent button{
+    padding: 10px 30px;
+    font-size: 14px;
+}
+
+.Moments{
+    position: relative;
+    width: 100%;
+    height: 200px;
+}
+
+.moments-container{
+    width: 100%;
+    height: 100%;
+    padding: 15px;
+    padding-top: 30px;
+}
+
+.moments-content-container{
+    position: relative;
+    border: solid;
+    border-width: thin;
+    border-color: #C2C2C2;
+    height: 100%;
+    padding: 20px;
+}
+
+.moments-content-container button{
+    margin-top: 20px;
+    font-size: 12px;
+    padding: 6px 20px;
+    border-radius: 6px;
+}
+
+.moments-content-container h2{
+    font-size: 18px;
+    text-align: center;
+    color: #DEDEDE;
+    font-family: 'Jacques Francois', serif;
+}
+
+.center-absolute{
+    position: absolute;
+    top: -16px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.center-absolute p{
+    border-radius: 6px;
+    background-color: #F0F3F6;
+    color: #666666;
+    font-size: 12px;
+    padding: 6px 20px;
+    font-family: 'Abhaya Libre', serif;
+    letter-spacing: 3px;
+}
+
+.moments-background-image{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    background-image: url("../../assets/Images/WeddingPhoto.jpg");
+    filter: blur(3px) brightness(.8);
+    z-index: -1;
+}
+
+.CapturingLife{
+    margin-top: 100px;
+}
+
+.CapturingLife-text p{
+    font-size: 11px;
+    text-align: center;
+    font-family: 'Abhaya Libre', serif;
+    color: #666666;
+    letter-spacing: 1px;
+}
+
+.CapturingLife-text h2{
+    font-size: 22px;
+    text-align: center;
+    margin-bottom: 50px;
+    font-family: 'Jacques Francois', serif;
+    color: #333333;
+}
+
+.CapturingLife-Images{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.CapturingLife img{
+    width: 200px;
+    height: 170px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    object-fit: cover;
+}
+
+.CapturingLife-Images-Section1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.CapturingLife-photocard{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+    font-family: 'Abhaya Libre', serif;
+    letter-spacing: 3px;
+    color: #666666;
+}
+
+@media all and (min-width: 350px){
+    .MeetMeContent h1{
+        font-size: 36px;
+    }
+    
+    .MeetMeContent h3{
+        font-size: 18px;
+    }
+}
+
+@media all and (min-width: 430px) {
+    .Headshot{
+        width: 225px;
+        height: 225px;
+        border-radius: 100%;
+    }
+
+    .center-absolute p{
+        font-size: 14px;
+    }
+
+    .moments-content-container h2{
+        font-size: 25px;
+    }
+
+    .Moments{
+        height: 300px;
+    }
+
+    .moments-content-container button{
+        margin-top: 20px;
+        font-size: 16px;
+        padding: 6px 20px;
+    }
+
+    .CapturingLife img{
+        width: 350px;
+        height: 350px;
+    }
+}
+
+@media all and (min-width: 700px){
+    .MeetMeContent button{
+        font-size: 18px
+    }
+
+    .Headshot{
+        width: 250px;
+        height: 250px;
+    }
+
+    #home-hero{
+        width: 80%;
+        margin-top: 100px;
+    }
+
+    .hero-img-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .MeetMeContent p{
+        font-size: 24px;
+    }
+
+    .center-absolute p{
+        font-size: 16px;
+    }
+
+    .moments-content-container h2{
+        width: 50%;
+        font-size: 28px;
+    }
+
+    .Moments{
+        height: 400px;
+    }
+
+    .moments-content-container button{
+        margin-top: 20px;
+        font-size: 16px;
+        padding: 6px 20px;
+    }
+
+    .CapturingLife-text p{
+        font-size: 18px;
+    }
+    
+    .CapturingLife-text h2{
+        font-size: 35px;
+    }
+
+    .CapturingLife-Images{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .CapturingLife-Images .CapturingLife-photocard{
+        flex: 1;
+    }
+
+    .CapturingLife-Images-Section1{
+        flex: 1;
+    }
+
+    .CapturingLife-Images img{
+        border-radius: 5px;
+    }
+
+    #portraits{
+        height: 500px;
+        width: 300px;
+        object-fit: cover;
+    }
+}
+
+@media all and (min-width: 1024px){
+    .MeetMeContent p{
+        padding: 8%;
+    }
+
+    #home-hero{
+        width: 70%;
+    }
+
+    .MeetMeContainer{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .MeetMe{
+        flex-direction: row;
+        width: 85%;
+    }
+
+    .Headshot-Container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        flex: 1;
+    }
+
+    .Headshot{
+        width: 300px;
+        height: 300px;
+    }
+
+    .moments-container{
+        background-color: white;
+        width: 700px;
+        height: 60%;
+        border-radius: 7px;
+    }
+    
+    .Moments{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 500px;
+    }
+
+    .moments-content-container h2{
+        color: #A6AEB7;
+        width: 60%;
+    }
+
+    .MeetMe{
+        width: 70%;
+    }
+
+    #portraits{
+        height: 500px;
+        width: 350px;
+    }
+
+    .CapturingLife-Images img{
+        width: 500px;
+        height: auto;
+    }
+}
+
+@media all and (min-width: 1500px){
+    .CapturingLife-Images-Section1{
+        margin-left: 300px;
+    }
+
+    #portraits{
+        margin-right: 300px;
+    }
+
+    #portraits-text{
+        margin-right: 300px;
+    }
+
+    .MeetMe{
+        flex-direction: row;
+    }
+
+    .Headshot{
+        width: 350px;
+        height: 350px;
+    }
+
+    .MeetMeContent button{
+        font-size: 24px
+    }
+
+    .moments-container{
+        width: 1000px;
+        height: 70%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .moments-content-container{
+        width: 80%;
+        height: 80%;
+    }
+
+    .moments-content-container button{
+        font-size: 20px;
+    }
+}
