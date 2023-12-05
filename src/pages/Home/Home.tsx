@@ -5,6 +5,7 @@ import JillJohnson from '../../assets/Images/Jill Johnson.jpg'
 import MeetMe from './home-components/MeetMe'
 import Moments from './home-components/Moments'
 import CapturingLife from './home-components/CapturingLife'
+import GetInTouch from '../../components/Global/GetInTouch'
 
 function Home() {
   return (
@@ -15,6 +16,7 @@ function Home() {
       <MeetMe />
       <Moments />
       <CapturingLife />
+      <GetInTouch />
     </div>
   )
 }

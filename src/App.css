@@ -25,3 +25,108 @@
     font-family: 'Abhaya Libre', serif;
     letter-spacing: 3px;
 }
+
+.GetInTouch{
+    position: relative;
+    width: 100%;
+    height: 230px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.GetInTouch h2{
+    font-family: 'Jacques Francois', serif;
+    font-size: 18px;
+    text-align: center;
+    color: white;
+    letter-spacing: 1px;
+    padding: 10px 20px;
+}
+
+.GetInTouch button{
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-top: 30px
+}
+
+.GetInTouch-background{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('./assets/Images/specialmoments.jpg');
+    background-size: cover;
+    background-position: center;
+    filter: brightness(.6);
+    z-index: -1;
+}
+
+
+@media all and (min-width: 430px){
+    .GetInTouch{
+        width: 100%;
+        height: 288px;
+    }
+
+    .GetInTouch h2{
+        font-size: 28px;
+    }
+}
+
+
+@media all and (min-width: 700px){
+    .GetInTouch{
+        width: 100%;
+        height: 320px;
+    }
+
+    .GetInTouch h2{
+        font-size: 32px;
+        padding: 10px 120px;
+    }
+}
+
+
+@media all and (min-width: 1024px){
+    .GetInTouch{
+        width: 100%;
+        height: 406px;
+    }
+
+    .GetInTouch h2{
+        font-size: 45px;
+    }
+
+    .GetInTouch button{
+        font-size: 18px;
+        padding: 15px 60px
+    }
+}
+
+
+@media all and (min-width: 1500px){
+    .GetInTouch{
+        width: 100%;
+        height: 692px;
+    }
+
+    .GetInTouch h2{
+        font-size: 65px;
+        padding: 10px 350px;
+    }
+
+    .GetInTouch button{
+        font-size: 18px;
+        padding: 15px 60px
+    }
+}
+
+@media all and (min-width: 1650px){
+    .GetInTouch h2{
+        font-size: 65px;
+        padding: 10px 400px;
+    }
+}
