@@ -16,11 +16,11 @@ function App() {
     <div className="App">
       <NavMenu />
       <Routes>
-        <Route path="/" element={ <Home/>}/>
-        <Route path="/services" element={ <Services/>}/>
-        <Route path="/About" element={<About />} />
-        <Route path="/Testimonials" element={<TestimonialPage />} />
-        <Route path="/Contact" element={<Contact />} />
+        <Route path="/Jill-Johnsons-Portfolio" element={ <Home/>}/>
+        <Route path="/Jill-Johnsons-Portfolio/services" element={ <Services/>}/>
+        <Route path="/Jill-Johnsons-Portfolio/About" element={<About />} />
+        <Route path="/Jill-Johnsons-Portfolio/Testimonials" element={<TestimonialPage />} />
+        <Route path="/Jill-Johnsons-Portfolio/Contact" element={<Contact />} />
       </Routes>
       <Footer />
     </div>

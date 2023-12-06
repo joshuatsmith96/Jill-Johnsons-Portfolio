@@ -5,7 +5,7 @@
         <div className="GetInTouch">
             <div className="GetInTouch-background"></div>
             <h2>Lets capture the important moments in your life</h2>
-            <Link id="getintouch-button" to={"/Contact"} className="button">GET IN TOUCH</Link>
+            <Link id="getintouch-button" to={"/Jill-Johnsons-Portfolio/Contact"} className="button">GET IN TOUCH</Link>
         </div>
     )
  }

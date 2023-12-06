@@ -6,11 +6,11 @@ function Footer() {
   return (
     <div className="Footer">
         <div className="footer-links">
-        <Link to="/About">About</Link>
+        <Link to="/Jill-Johnsons-Portfolio/About">About</Link>
         <span>•</span>
-        <Link to="/Services">Services</Link>
+        <Link to="/Jill-Johnsons-Portfolio/Services">Services</Link>
         <span>•</span>
-        <Link to="/Contact">Contact</Link>
+        <Link to="/Jill-Johnsons-Portfolio/Contact">Contact</Link>
         </div>
         <p>&#169;Joshua's Website 2023</p>
     </div>

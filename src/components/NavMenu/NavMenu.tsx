@@ -11,7 +11,7 @@ function NavMenu() {
     return (
         <Navbar key={"sm"} expand={"sm"}>
           <Container className="nav-content" fluid>
-            <Navbar.Brand as={Link} to={"/"} className="nav-brand" href="#">
+            <Navbar.Brand as={Link} to={"/Jill-Johnsons-Portfolio"} className="nav-brand" href="#">
                 <h1>JILL JOHNSON</h1>
                 <p>Photography</p>
             </Navbar.Brand>
@@ -29,11 +29,11 @@ function NavMenu() {
               <span className="nav-divider"></span>
               <Offcanvas.Body>
                 <Nav className="nav-links justify-content-end flex-grow-1 pe-3">
-                  <Nav.Link as={Link} to="/" className="navlink">Home</Nav.Link>
-                  <Nav.Link as={Link} to="/services" className="navlink">Services</Nav.Link>
-                  <Nav.Link as={Link} to="/About" className="navlink">About</Nav.Link>
-                  <Nav.Link as={Link} to="/Testimonials" className="navlink">Testimonials</Nav.Link>
-                  <Nav.Link as={Link} to="/Contact" className="navlink">Contact</Nav.Link>
+                  <Nav.Link as={Link} to="/Jill-Johnsons-Portfolio" className="navlink">Home</Nav.Link>
+                  <Nav.Link as={Link} to="/Jill-Johnsons-Portfolio/services" className="navlink">Services</Nav.Link>
+                  <Nav.Link as={Link} to="/Jill-Johnsons-Portfolio/About" className="navlink">About</Nav.Link>
+                  <Nav.Link as={Link} to="/Jill-Johnsons-Portfolio/Testimonials" className="navlink">Testimonials</Nav.Link>
+                  <Nav.Link as={Link} to="/Jill-Johnsons-Portfolio/Contact" className="navlink">Contact</Nav.Link>
                 </Nav>
               </Offcanvas.Body>
             </Navbar.Offcanvas>
