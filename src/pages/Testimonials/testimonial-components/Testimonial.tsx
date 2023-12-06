@@ -1,18 +1,20 @@
 import '../Testimonials.css'
-import test from '../../../assets/Images/Baby1.jpg'
 
 interface Props{
     image: any;
+    name: any;
+    date: any;
+    content: any;
 }
 
-function Testimonials(){
+function Testimonials(props: Props){
     return(
         <div className="Testimonials">
-            <img src={test} alt="" />
+            <img src={props.image} alt="" />
             <div className="testimonial-content">
-                <h1>Name</h1>
-                <p>Wedding Date</p>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cupiditate repellendus dolor eum odit suscipit doloremque architecto sunt numquam nesciunt impedit fuga, culpa consequatur optio eius atque nam explicabo reiciendis facere?</p>
+                <h1>{props.name}</h1>
+                <p>{props.date}</p>
+                <p>{props.content}</p>
             </div>
         </div>
     )

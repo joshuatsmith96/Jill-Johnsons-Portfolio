@@ -4,7 +4,7 @@ import './About.css'
 
 function About(){
     return(
-        <div className="About">
+        <div className="About" onLoad={() => {window.scrollTo(0, 0)}}>
             <div className="about-section">
                 <img src={Family} alt="Family Photo" />
                 <div className="about-content">

@@ -242,6 +242,12 @@ pre{
         margin-top: 50px;
     }
 
+    .Offering-Small-Images img{
+        width: 250px;
+        height: 250px;
+        margin: 40px
+    }
+
     .Offering button{
         margin: 0px;
     }

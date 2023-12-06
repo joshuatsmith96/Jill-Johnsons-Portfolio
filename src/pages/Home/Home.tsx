@@ -7,13 +7,9 @@ import Moments from './home-components/Moments'
 import CapturingLife from './home-components/CapturingLife'
 import GetInTouch from '../../components/Global/GetInTouch'
 
-window.onload = function() {
-  document.getElementsByClassName("navlink")[0];
-}
-
 function Home() {
   return (
-    <div className="Home">
+    <div className="Home" onLoad={() => {window.scrollTo(0, 0)}}>
       <div className="hero-img-container">
       <img id="home-hero" src={JillJohnson} alt="Jill Johnson"/>
       </div>
