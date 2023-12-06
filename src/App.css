@@ -11,6 +11,11 @@
     margin: 0px;
 }
 
+pre{
+    text-wrap: wrap;
+    white-space: pre-line;
+}
+
 /* .nav-link:focus{
     font-weight: bold;
     color: #8b8b8b;
@@ -33,6 +38,11 @@
     background-color: #F0F3F6;
     font-family: 'Abhaya Libre', serif;
     letter-spacing: 3px;
+    transition: .7s;
+}
+
+.button:hover{
+    background-color: rgb(190, 190, 190)
 }
 
 .GetInTouch{
