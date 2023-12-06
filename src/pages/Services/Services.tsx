@@ -17,7 +17,7 @@ import Wedding5 from '../../assets/Images/Services Page/Wedding 5.jpg';
 
 function Services() {
   return (
-    <div className="Services">
+    <div className="Services" onLoad={() => {window.scrollTo(0, 0)}}>
       <h1 id="services-header">What I Offer</h1>
       <Offering
         mainImage={Portrait1}

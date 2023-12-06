@@ -7,6 +7,8 @@ import Moments from './home-components/Moments'
 import CapturingLife from './home-components/CapturingLife'
 import GetInTouch from '../../components/Global/GetInTouch'
 
+
+
 function Home() {
   return (
     <div className="Home" onLoad={() => {window.scrollTo(0, 0)}}>

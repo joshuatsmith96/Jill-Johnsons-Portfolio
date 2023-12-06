@@ -2,7 +2,7 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import Offcanvas from 'react-bootstrap/Offcanvas';
-import { Link } from 'react-router-dom';
+import { Link, useLocation } from 'react-router-dom';
 
 import './NavMenu.css'
 
@@ -11,7 +11,7 @@ function NavMenu() {
     return (
         <Navbar key={"sm"} expand={"sm"}>
           <Container className="nav-content" fluid>
-            <Navbar.Brand className="nav-brand" href="#">
+            <Navbar.Brand as={Link} to={"/"} className="nav-brand" href="#">
                 <h1>JILL JOHNSON</h1>
                 <p>Photography</p>
             </Navbar.Brand>
