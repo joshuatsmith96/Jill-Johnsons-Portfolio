@@ -32,7 +32,7 @@ function NavMenu() {
                   <Nav.Link as={Link} to="/" className="navlink">Home</Nav.Link>
                   <Nav.Link as={Link} to="/services" className="navlink">Services</Nav.Link>
                   <Nav.Link as={Link} to="/About" className="navlink">About</Nav.Link>
-                  <Nav.Link href="#action4" className="navlink">Testimonials</Nav.Link>
+                  <Nav.Link as={Link} to="/Testimonials" className="navlink">Testimonials</Nav.Link>
                   <Nav.Link href="#action5" className="navlink">Contact</Nav.Link>
                 </Nav>
               </Offcanvas.Body>

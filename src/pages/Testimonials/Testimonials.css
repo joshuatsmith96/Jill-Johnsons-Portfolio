@@ -1,0 +1,15 @@
+.Testimonials{
+    margin: 15px;
+}
+
+.Testimonials img{
+    width: 100%;
+}
+
+.testimonial-content h1{
+    text-align: center;
+}
+
+.testimonial-content p:first-child{
+    text-align: center;
+}
