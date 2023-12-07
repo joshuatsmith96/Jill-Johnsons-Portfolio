@@ -2,7 +2,7 @@
   "name": "Jill-Johnsons-Portfolio",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://joshuatsmith96.github.io/Jill-Johnsons-Portfolio",
+  "homepage": "https://joshuatsmith96.github.io/Jill-Johnsons-Portfolio/",
   "type": "module",
   "scripts": {
     "predeploy": "npm run build",
