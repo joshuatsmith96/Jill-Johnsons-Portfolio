@@ -16,7 +16,7 @@ function App() {
     <div className="App">
       <NavMenu />
       <Routes>
-        <Route path="/Jill-Johnsons-Portfolio/" element={ <Home/>}/>
+        <Route path="/Jill-Johnsons-Portfolio" element={ <Home/>}/>
         <Route path="/Jill-Johnsons-Portfolio/services" element={ <Services/>}/>
         <Route path="/Jill-Johnsons-Portfolio/About" element={<About />} />
         <Route path="/Jill-Johnsons-Portfolio/Testimonials" element={<TestimonialPage />} />
