@@ -1,5 +1,5 @@
 import './App.css'
-import {Routes, Route} from "react-router-dom"
+import {BrowserRouter, Routes, Route} from "react-router-dom"
 //Import Components
 import NavMenu from './components/NavMenu/NavMenu'
 import Footer from './components/Footer/Footer'
@@ -15,13 +15,15 @@ function App() {
   return (
     <div className="App">
       <NavMenu />
+      <BrowserRouter basename={import.meta.env.DEV ? '/' : '/react-vite-gh-pages/'}>
       <Routes>
-        <Route path="/Jill-Johnsons-Portfolio" element={ <Home/>}/>
+        <Route path="/" element={ <Home/>}/>
         <Route path="/Jill-Johnsons-Portfolio/services" element={ <Services/>}/>
         <Route path="/Jill-Johnsons-Portfolio/About" element={<About />} />
         <Route path="/Jill-Johnsons-Portfolio/Testimonials" element={<TestimonialPage />} />
         <Route path="/Jill-Johnsons-Portfolio/Contact" element={<Contact />} />
       </Routes>
+      </BrowserRouter>
       <Footer />
     </div>
   )
