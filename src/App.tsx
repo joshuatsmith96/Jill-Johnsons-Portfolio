@@ -15,15 +15,13 @@ function App() {
   return (
     <div className="App">
       <NavMenu />
-      <BrowserRouter basename={import.meta.env.DEV ? '/' : '/react-vite-gh-pages/'}>
       <Routes>
-        <Route path="/" element={ <Home/>}/>
+        <Route path="/Jill-Johnsons-Portfolio" element={ <Home/>}/>
         <Route path="/Jill-Johnsons-Portfolio/services" element={ <Services/>}/>
         <Route path="/Jill-Johnsons-Portfolio/About" element={<About />} />
         <Route path="/Jill-Johnsons-Portfolio/Testimonials" element={<TestimonialPage />} />
         <Route path="/Jill-Johnsons-Portfolio/Contact" element={<Contact />} />
       </Routes>
-      </BrowserRouter>
       <Footer />
     </div>
   )
