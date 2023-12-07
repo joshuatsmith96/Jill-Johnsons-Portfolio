@@ -33,7 +33,7 @@ function Services() {
             Please send me a message if you’d like to learn more about portrait shoots.`
         }
       />
-
+      <div className="offering-divider"></div>
       <Offering
         mainImage={Wedding5}
         image1={Wedding1}

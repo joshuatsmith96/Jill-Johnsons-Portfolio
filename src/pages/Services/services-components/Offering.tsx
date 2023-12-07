@@ -13,6 +13,8 @@ function Offering(props: Props) {
   return (
     <div className="Offering">
       <div className="offering-mobile">
+        <p id="offering-title">{props.title}</p>
+        <h1 id="offering-header">{props.header}</h1>
         <img src={props.mainImage} alt="" id="mainImage" />
         <div className="Offering-Small-Images">
           <img src={props.image1} alt="First Image" />
@@ -20,8 +22,6 @@ function Offering(props: Props) {
           <img src={props.image3} alt="Third Image" />
           <img src={props.image4} alt="Fourth Image" />
         </div>
-        <p id="offering-title">{props.title}</p>
-        <h1 id="offering-header">{props.header}</h1>
         <pre>{<p id="offering-content">{props.content}</p>}</pre>
         <button className="button">Contact Me</button>
       </div>
