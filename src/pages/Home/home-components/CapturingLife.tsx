@@ -1,7 +1,7 @@
 //Images
-import Newborns from "../../../assets/Images/Baby1.jpg";
-import Weddings from "../../../assets/Images/Wedding1.jpg";
-import Portraits from "../../../assets/Images/Maternity.jpg";
+import Newborns from "../../../assets/LowRes/Baby1.jpg";
+import Weddings from "../../../assets/LowRes/Wedding 1.jpg";
+import Portraits from "../../../assets/LowRes/Maternity.jpg";
 
 function CapturingLife() {
   return (

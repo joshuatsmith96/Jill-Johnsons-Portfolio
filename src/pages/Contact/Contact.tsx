@@ -1,4 +1,4 @@
-import Thumbnail from "../../assets/Images/Jill Johnson.jpg";
+import Thumbnail from "../../assets/LowRes/Jill Johnson.jpg";
 import "./Contact.css";
 
 function Contact() {

@@ -1,4 +1,4 @@
-import Family from '../../assets/Images/About Page/family photo.jpg'
+import Family from '../../assets/LowRes/About/family photo.jpg'
 import GetInTouch from '../../components/Global/GetInTouch'
 import './About.css'
 

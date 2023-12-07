@@ -3,17 +3,17 @@ import "./Services.css";
 import Offering from "./services-components/Offering";
 import GetInTouch from "../../components/Global/GetInTouch";
 //Images
-import Portrait1 from "../../assets/Images/Services Page/Portrait 1.jpg";
-import Portrait2 from "../../assets/Images/Services Page/Portrait 2.jpg";
-import Portrait3 from "../../assets/Images/Services Page/Portrait 3.jpg";
-import Portrait4 from "../../assets/Images/Services Page/Portrait 4.jpg";
-import Portrait5 from "../../assets/Images/Services Page/Portrait 5.jpg";
+import Portrait1 from "../../assets/LowRes/Services/Portrait 1.jpg";
+import Portrait2 from "../../assets/LowRes/Services/Portrait 2.jpg";
+import Portrait3 from "../../assets/LowRes/Services/Portrait 3.jpg";
+import Portrait4 from "../../assets/LowRes/Services/Portrait 4.jpg";
+import Portrait5 from "../../assets/LowRes/Services/Portrait 5.jpg";
 
-import Wedding1 from '../../assets/Images/Services Page/Wedding 1.jpg';
-import Wedding2 from '../../assets/Images/Services Page/Wedding 2.jpg';
-import Wedding3 from '../../assets/Images/Services Page/Wedding 3.jpg';
-import Wedding4 from '../../assets/Images/Services Page/Wedding 4.jpg';
-import Wedding5 from '../../assets/Images/Services Page/Wedding 5.jpg';
+import Wedding1 from "../../assets/LowRes/Services/Wedding 1.jpg";
+import Wedding2 from "../../assets/LowRes/Services/Wedding 2.jpg";
+import Wedding3 from "../../assets/LowRes/Services/Wedding 3.jpg";
+import Wedding4 from "../../assets/LowRes/Services/Wedding 4.jpg";
+import Wedding5 from "../../assets/LowRes/Services/Wedding 5.jpg";
 
 function Services() {
   return (

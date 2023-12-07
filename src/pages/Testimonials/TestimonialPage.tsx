@@ -1,10 +1,10 @@
 import Testimonials from "./testimonial-components/Testimonial"
 import GetInTouch from "../../components/Global/GetInTouch"
 //Images
-import testimonial1 from '../../assets/Images/Testimonials/testimonial1.jpg'
-import testimonial2 from '../../assets/Images/Testimonials/testimonial2.jpg'
-import testimonial3 from '../../assets/Images/Testimonials/testimonial3.jpg'
-import testimonial4 from '../../assets/Images/Testimonials/testimonial4.jpg'
+import testimonial1 from '../../assets/LowRes/Testimonials/testimonial1.jpg'
+import testimonial2 from '../../assets/LowRes/Testimonials/testimonial2.jpg'
+import testimonial3 from '../../assets/LowRes/Testimonials/testimonial3.jpg'
+import testimonial4 from '../../assets/LowRes/Testimonials/testimonial4.jpg'
 
 function TestimonialPage(){
     return(

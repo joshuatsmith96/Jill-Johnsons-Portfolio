@@ -17,7 +17,7 @@
 }
 
 .Headshot{
-    background-image: url("../../assets/headshot.jpg");
+    background-image: url("../../assets/LowRes/headshot.jpg");
     width: 200px;
     height: 200px;
     background-position: center;
@@ -120,7 +120,7 @@
     height: 100%;
     background-size: cover;
     background-position: center;
-    background-image: url("../../assets/Images/WeddingPhoto.jpg");
+    background-image: url("../../assets/LowRes/WeddingPhoto.jpg");
     filter: blur(3px) brightness(.8);
     z-index: -1;
 }

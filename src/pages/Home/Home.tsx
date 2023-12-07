@@ -1,6 +1,6 @@
 import './Home.css'
 //Images
-import JillJohnson from '../../assets/Images/Jill Johnson.jpg'
+import JillJohnson from '../../assets/LowRes/Jill Johnson.jpg'
 //Components
 import MeetMe from './home-components/MeetMe'
 import Moments from './home-components/Moments'
