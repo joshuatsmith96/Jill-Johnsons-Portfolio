@@ -188,6 +188,14 @@
     .MeetMeContent h3{
         font-size: 18px;
     }
+
+    .CapturingLife-text p{
+        padding: 15px;
+    }
+    
+    .CapturingLife-text h2{
+        padding: 15px;
+    }
 }
 
 @media all and (min-width: 430px) {
