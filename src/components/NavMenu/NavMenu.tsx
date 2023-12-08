@@ -29,11 +29,11 @@ function NavMenu() {
               <span className="nav-divider"></span>
               <Offcanvas.Body>
                 <Nav className="nav-links justify-content-end flex-grow-1 pe-3">
-                  <Nav.Link as={Link} to="/Jill-Johnsons-Portfolio" className="navlink">Home</Nav.Link>
-                  <Nav.Link as={Link} to="/Jill-Johnsons-Portfolio/services" className="navlink">Services</Nav.Link>
-                  <Nav.Link as={Link} to="/Jill-Johnsons-Portfolio/About" className="navlink">About</Nav.Link>
-                  <Nav.Link as={Link} to="/Jill-Johnsons-Portfolio/Testimonials" className="navlink">Testimonials</Nav.Link>
-                  <Nav.Link as={Link} to="/Jill-Johnsons-Portfolio/Contact" className="navlink">Contact</Nav.Link>
+                  <Nav.Link href="https://joshuatsmith96.github.io/Jill-Johnsons-Portfolio/" className="navlink">Home</Nav.Link>
+                  <Nav.Link href="https://joshuatsmith96.github.io/Jill-Johnsons-Portfolio/Services" className="navlink">Services</Nav.Link>
+                  <Nav.Link href="https://joshuatsmith96.github.io/Jill-Johnsons-Portfolio/About" className="navlink">About</Nav.Link>
+                  <Nav.Link href="https://joshuatsmith96.github.io/Jill-Johnsons-Portfolio/Testimonials" className="navlink">Testimonials</Nav.Link>
+                  <Nav.Link href="https://joshuatsmith96.github.io/Jill-Johnsons-Portfolio/Contact" className="navlink">Contact</Nav.Link>
                 </Nav>
               </Offcanvas.Body>
             </Navbar.Offcanvas>
