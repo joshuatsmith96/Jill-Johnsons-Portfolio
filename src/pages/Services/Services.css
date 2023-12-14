@@ -11,6 +11,9 @@ pre{
     text-align: center;
     margin-bottom: 100px;
     margin-top: 50px;
+    background-color: #B1EBD6;
+    color: #434343;
+    padding: 10px 0px
 }
 
 .Offering-Images{
@@ -142,11 +145,10 @@ pre{
 
     #offering-content{
         font-size: 20px;
-        padding: 0px 0px;
     }
 
     .Offering{
-        padding: 0px 80px;
+        padding: 0px;
     }
 
     #offering-title{
@@ -175,7 +177,7 @@ pre{
     }
 
     .Offering{
-        padding: 0px 200px;
+        padding: 0px;
     }
 
     .Offering-Small-Images img{
@@ -186,10 +188,6 @@ pre{
 
     #services-header{
         font-size: 60px;
-        border-bottom: solid;
-        border-width: thin;
-        width: 40%;
-        padding-bottom: 30px;
         margin-bottom: 200px
     }
 
@@ -257,6 +255,10 @@ pre{
         flex: 1;
     }
 
+    .offering-image-content{
+        padding: 0px 100px;
+    }
+
     #mainImage{
         flex: 1;
         margin-right: 50px
@@ -274,5 +276,11 @@ pre{
 
     .Offering button{
         margin: 0px;
+    }
+}
+
+@media all and (min-width: 1500px){
+    .offering-image-content{
+        padding: 0px 200px;
     }
 }

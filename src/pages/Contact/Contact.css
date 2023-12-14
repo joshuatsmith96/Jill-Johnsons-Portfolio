@@ -169,21 +169,28 @@ form{
     gap: 10px;
   }
 
+  .form-inputs input{
+    border: solid;
+    font-size: 2px;
+  }
+
   .Contact {
     flex-direction: row;
     margin: 70px 10px;
   }
 
   .Contact img{
-    height: 600px;
+    height: 700px;
   }
 
   .contact-content h1 {
     text-align: left;
+    font-size: 38px
   }
 
   .contact-content p:first-of-type {
     text-align: left;
+    font-size: 18px;
   }
 
   .contact-content p:last-of-type {
@@ -193,7 +200,8 @@ form{
 
   .contact-content {
     padding: 20px;
-    height: 600px;
+    height: 700px;
+    width: 500px;
   }
 
   .Contact:nth-child(odd) {

@@ -1,3 +1,19 @@
+.desktop-links{
+    display: none;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 600px;
+}
+
+#active{
+    font-weight: 600;
+  }
+
+.mobile-links{
+    display: block;
+}
+
 .nav-brand{
     text-align: center;
     flex: 3.5;
@@ -11,6 +27,7 @@
 
 .navlink{
     text-decoration: none;
+    display: flex;
 }
 
 .nav-brand h1{
@@ -72,6 +89,14 @@
     .navlink{
         font-size: 18px;
         margin: 10px;
+    }
+
+    .mobile-links{
+        display: none;
+    }
+
+    .desktop-links{
+        display: flex;
     }
 }
 
