@@ -159,7 +159,7 @@ form{
 
   .contact-content {
     width: 450px;
-    height: 700px;
+    height: 800px;
   }
 }
 
@@ -170,7 +170,6 @@ form{
   }
 
   .form-inputs input{
-    border: solid;
     font-size: 2px;
   }
 
